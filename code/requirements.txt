@@ -1,0 +1,12 @@
+transformers==4.17.0
+sentence-transformers
+sagemaker
+boto3
+torch
+nltk
+rank_bm25
+pydantic
+sentencepiece
+datasets==2.0.0
+nltk
+opensearch-py
