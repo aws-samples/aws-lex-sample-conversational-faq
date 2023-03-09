@@ -31,6 +31,7 @@ print(f"endpoint_name: {endpoint_name}")
 
 # Test the deployed endpoint
 index_id = os.environ.get("CFAQ_INDEX")
+# endpoint_name = os.environ.get("ENDPOINT_NAME")
 sm = sagemaker.Session().sagemaker_runtime_client
 query = "I want to report something."
 payload = {
