@@ -1,4 +1,4 @@
-transformers==4.17.0
+transformers==4.30.0
 sentence-transformers
 sagemaker
 boto3
